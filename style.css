@@ -466,11 +466,15 @@ body[data-theme="dark"] footer {
     align-items: center;
     padding: 2rem 0;
     gap: 1.5rem;
-    display: none;
+    display: none; /* Oculto por defecto */
   }
 
   .nav-links a {
     font-size: 1.2rem;
+  }
+
+  .nav-links.active {
+    display: flex; /* Se muestra cuando se le agrega la clase 'active' */
   }
 
   /* Botón de modo oscuro en móvil - se mueve abajo */
