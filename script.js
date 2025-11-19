@@ -44,6 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelector('.nav-links');
 
   hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active'); // Agregamos una clase 'active'
+    navLinks.classList.toggle('active'); // Agregamos/removemos la clase 'active'
   });
 });
