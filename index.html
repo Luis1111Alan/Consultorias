@@ -147,12 +147,12 @@
   <!-- Sección Contacto -->
   <section id="contacto" class="section contact">
     <h2>CONTACTO</h2>
-    <!-- Formulario estático (no enviará datos) -->
-    <form id="contactForm" class="static-form">
+    <!-- Formulario con Formspree -->
+    <form class="static-form" action="https://formspree.io/f/mdkbgnzd" method="POST">
       <input type="text" name="nombre" placeholder="Tu nombre" required>
       <input type="email" name="email" placeholder="Tu correo" required>
       <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
-      <button type="button" onclick="alert('Formulario no funcional en esta versión. Contacta directamente a utp0155924@alumno.utpuebla.edu.mx')">Enviar</button>
+      <button type="submit">Enviar</button>
     </form>
     <div class="contact-info">
       <p>📧 utp0155924@alumno.utpuebla.edu.mx</p>
